@@ -1,0 +1,57 @@
+.home {
+  width: 100%;
+  position: relative;
+  padding: var(--space-lg) var(--space-page);
+  padding-bottom: var(--space-sm);
+
+  background-color: var(--ui-background);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto auto;
+  row-gap: var(--space-md);
+  align-items: center;
+  justify-items: center;
+
+  .bible-quote {
+    width: 500px;
+    h5 {
+      text-align: center;
+    }
+    p {
+      text-align: right;
+    }
+  }
+
+  .read-more {
+    background-color: var(--ui-primary);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    box-shadow: 0 0 0 0 rgba(92, 148, 116, 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(92, 148, 116, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(92, 148, 116, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(92, 148, 116, 0);
+  }
+}

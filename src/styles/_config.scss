@@ -1,0 +1,26 @@
+:root {
+  // colors
+  --text-default: #eeeeee;
+  --ui-primary: #5c9474;
+  --ui-background: #111111;
+
+  // spacing
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+  --space-page: 8rem;
+
+  // borders
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+
+  // CSS breakpoint values
+  --screen-xs: 576px;
+  --screen-sm: 768px;
+  --screen-md: 992px;
+  --screen-lg: 1200px;
+  --screen-xl: 1440px;
+}
